@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE = "dhanushdock1/mysite:${BUILD_NUMBER}"
+        IMAGE = "dhanushdock1/demo_site:${BUILD_NUMBER}"
     }
 
     stages {
